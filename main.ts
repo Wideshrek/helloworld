@@ -1,7 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Asleep)
+    basic.showString("Chunke Munke")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.StickFigure)
+    basic.showString("GoodBye")
 })
-basic.showIcon(IconNames.StickFigure)
+basic.showString("Wassup Gang")
+basic.showNumber(69)
